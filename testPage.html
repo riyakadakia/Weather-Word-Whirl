@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="lostAltosHacks.css">
+    <script src="lostAltosHacks.js"></script>
+    <source src="hackathonAudio\epic-storm-thunder-rainwindwaves-no-loops-106800.mp3" type="audio/ogg">
+
+</head>
+<body>
+    <audio id = "bg-music" src="epic-storm-thunder-rainwindwaves-no-loops-106800.mp3" pause="false" loop></audio>
+    <button id="play" onClick="Play()"><img src="hackathonPictures\375.png" style="width: 20px; height: 20px;"></button>
+<div id="content">
+    <h1 id="title" title> Weather Word Whirl! <h1>
+    <h2> (Wordle but with weather)</h2> 
+    <!-- Restarts game -->
+    <div>
+        <button onclick="restart()" type="button" id="restartButton" hidden="hidden">Restart</button>
+    </div>
+    <div class="userInput">
+        <!-- Where User inputs guess-->
+        <input type = “text” name="textbox" id="textbox" maxlength=5>
+
+        <!---User submits guess with this button-->
+        <button onclick="submitButton()" type="button" id="submitButton2">Submit</button>
+    </div>    
+
+    <div id="lessThan5" hidden="hidden">
+        Enter a 5 letter word.
+    </div>
+    <br>
+    <div id = "setOfGuesses">
+        <span id="userGuess">
+            <p id="letter0">
+                
+            </p>
+            <p id="letter1">
+
+            </p>
+            <p id="letter2">
+
+            </p>
+            <p id="letter3">
+
+            </p>
+            <p id="letter4">
+
+            </p> 
+        </span>
+    </div>
+
+    
+
+</div>
+<div class="info">
+    <p id="def">Definition:</p>
+    <span id="definition"hidden="hidden"></span>
+</div>
+<div class="funFacts">
+    <p id="funTitle">Fun Fact:</p>
+    <span id="fun" hidden="hidden"></span>
+</image>
+</body>
+</html> 

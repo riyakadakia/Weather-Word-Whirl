@@ -1,0 +1,246 @@
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  text-align: center;
+  display: list-item;
+  
+  background-image: url("https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+
+}
+
+#def {
+  color:black;
+  position: relative;
+  font-size: 24px;
+  font-weight: bold; 
+}
+#definition{
+  color:black;
+  position: relative;
+}
+
+#submitButton2{
+  font-size: 16px;
+  font-weight: normal;
+}
+
+#content{
+  background-color: rgb(245, 245, 220, 0.5);
+  position: absolute;
+  overflow: auto;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0;
+  bottom: 0;
+  left: 0; 
+  right: 0;
+  width: 60%;
+  height: 90%; 
+  
+}
+
+hr {
+  width: 500px;
+}
+
+button {
+  background-color: rgb(222, 184, 135);
+  border: none;
+  border-radius: 10%;
+  padding: 1% 2%;
+  text-size-adjust: 16px;
+  letter-spacing: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+
+}
+button:hover{
+  background-color: rgb(210, 180, 130);
+}
+
+#title {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#textbox {
+  font-size: 24px;
+  font-weight: normal;
+  letter-spacing:2px;
+}
+
+#board {
+  width: 350px;
+  height: 420px;
+  background-color: green;
+  margin: 0 auto;
+  margin-top: 3px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#restartButton {
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+#setOfGuesses{
+  align-content: center;
+}
+
+#letter0{
+  /* box */
+  border: 2px solid black;
+  width: 60px;
+  height: 60px;
+  /*margin: 2.5 px;*/
+
+  /* text */
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+#letter1{
+  /* box */
+  border: 2px solid black;
+  width: 60px;
+  height: 60px;
+  
+
+  /* text */
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+#letter2{
+  /* box */
+  border: 2px solid black;
+  width: 60px;
+  height: 60px;
+  
+
+  /* text */
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+#letter3{
+  /* box */
+  border: 2px solid black;
+  width: 60px;
+  height: 60px;
+  
+
+  /* text */
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+#letter4{
+  /* box */
+  border: 2px solid black;
+  width: 60px;
+  height: 60px;
+  
+
+  /* text */
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+
+
+#userGuess {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  height: 80px;
+  
+}
+
+.info{
+  background-color: rgb(245, 245, 220, 0.5);
+  float: right;
+  overflow: auto;
+  margin-top: 10px;
+  margin-left: 85%;
+  margin-right: 4%;
+  margin-bottom: 10px;
+  margin-top: 10%;
+  border-width: 10px;
+  border: solid;
+  padding: 1%;
+  width: auto;
+  height: auto;
+}
+#funTitle{
+  color:black;
+  position: relative;
+  font-size: 24px;
+  font-weight: bold; 
+}
+
+.funFacts{
+  background-color: rgb(245, 245, 220, 0.5);
+  float:right;
+  overflow: auto;
+  margin-top: 10px;
+  margin-left: 85%;
+  margin-right: 4%;
+  margin-bottom: 10px;
+  border-width: 10px;
+  border: solid;
+  padding: 1%;
+  width: auto;
+  height: auto;
+  
+}
+
+.parentDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+#play{
+  color: rgb(222, 184, 135);
+  float: left;
+  padding: 0%;
+  align-items: center;
+}
+#play:hover{
+  background-color:rgb(155, 133, 87);
+}
