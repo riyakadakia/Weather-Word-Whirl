@@ -3,10 +3,10 @@ console.log("testing js");
 // ----- Variables ------
 // Stores word user needs to guess and word user guesses
     //Dataset of Words with their defintions
-var wordArray = ["flood","cloud","windy","slush","radar","sleet","smoke","storm","sunny","vapor","water","light","balmy","frost","rains","humid"];
-var defArray = ["Lots of water","Lots of gas","Gas moves fast","snow partially melted","detects type of precipitation","ice pellets","gray gas","strong wind, rain, and lightning","bright; sun is out","liquid particles","clear liquid that we drink","bright outside","pleasantly warm","small, frozen ice crystals","lots of droplets of water","lots of water vapor in the air"];
-var funArray = ["this is not fun at all", "mid weather", "how", "mmm yummy slushie", "for finding out who asked", "i have no idea what this is lol", "help i can't see", "kaboosh", "overrated weather", "funny water", "H30 can kill you", "this isn't even a weather", "pleasantly warm", "better than cloudly",  "the word is rains and not rainy?", "vapor 2.0"]; 
-    // Gets random word and definition
+var wordArray = ["flood","cloud","windy","slush","radar","sleet","smoke","storm","sunny","vapor","water","light","balmy","frost","rainy","humid", "snowy", "solar"];
+var defArray = ["Lots of water","Lots of gas","Gas moves fast","snow partially melted","detects type of precipitation","ice pellets","gray gas","strong wind, rain, and lightning","bright; sun is out","liquid particles","clear liquid that we drink","bright outside","pleasantly warm","small, frozen ice crystals","lots of droplets of water","lots of water vapor in the air", "frozen water", "sun sun sun"];
+var funArray = ["Involved with 90% of natural disasters", "Clouds can turn green in thunderstorms", "It is windier near the coasts", "You can eat slush!", "RADAR stands for radio detection and ranging", "Careful for black ice while driving!", "Inhaling smoke can be dangerous for the lungs", "Storms can come in many shapes and sizes!", "Don't stare at the sun for too long or you'll be blinded!", "The steam that comes out of boiled water is vapor!", "Water has both H2O and minerals; pure H2O will kill you!", "Darkness is the absence of light!", "Balmy weather we're having!", "The word frost is derived from the world 'old' because it looks like old hair",  "Raindrops are shaped like hamburger buns.", "tropical areas are more humid!", "Snow will only create at temperatures below 32 degrees Celcieus", 'Solar Energey is very potent']; 
+         // Gets random word and definition
 const randomNum = Math.floor(Math.random() * wordArray.length);
 let finalWord = wordArray[randomNum];
 var finalWordDef = defArray[randomNum];
